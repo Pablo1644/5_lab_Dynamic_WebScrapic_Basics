@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "5-basics-of-dynamic-webscraping"
+version = "0.1.0"
+description = ""
+authors = ["Pablo1644 <pawel.wagrodzki@gmail,com>"]
+readme = "README.md"
+packages = [{include = "5_basics_of_dynamic_webscraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
